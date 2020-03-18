@@ -22,6 +22,7 @@ public class StudentController {
     @RequestMapping("test")
     @ResponseBody
     Map getList(){
+        System.out.println("测试2");
         return studentService.getList();
     }
 }
