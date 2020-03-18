@@ -15,6 +15,7 @@ public class StudentController {
 
     @RequestMapping("t")
     public String Testt(){
+        System.out.println("输出打印");
         return "123";
     }
 
