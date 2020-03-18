@@ -23,7 +23,6 @@ public class StudentController {
     @ResponseBody
     Map getList(){
         System.out.println("测试2");
-        System.out.println("测试33");
         return studentService.getList();
     }
 }
